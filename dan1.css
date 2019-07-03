@@ -1,0 +1,77 @@
+*{
+		margin: 0;
+	padding: 0;
+}
+body{
+
+	background-color: #111;	
+}
+
+.computer{
+	position: relative;
+	background-image: url("../../images/弹幕/macbook.png");
+	background-size: 100% 100%;
+	width: 70%;
+	height: 620px;
+	margin: 50px auto;
+
+	}
+.warpper{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	width:79%;
+	height: 80%;
+	margin:-25% -39.5%;
+ 
+
+}
+.main video{
+	height:100%;
+	width: 100%;
+
+	
+}
+.main{
+	position:relative;
+	top:0;
+	height:92%;
+	width: 100%;
+	overflow: hidden;
+
+}
+.send{
+	text-align: center;
+	margin-top: 5px;
+	
+}
+.input{
+	width: 500px;
+	height: 30px;
+	border:0;
+	padding: 0;
+	outline: none;
+	border-radius: 10px 0 0 10px;
+	vertical-align:text-bottom;
+
+}
+.btn{
+	border:0;
+	width: 80px;
+	height: 30px;
+	color: #fff;
+	background-color: orange;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: text-bottom;
+	border-radius: 0 10px 10px 0;
+	outline: none;
+
+}
+.main span{
+	position: absolute;
+
+	white-space: nowrap;
+
+
+}
